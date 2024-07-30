@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Easy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Page -->
+    <div id="home-page">
+        <h1>Shop Easy</h1>
+        <p>Track your orders and receive the best deals by <a href="register.html">creating an account</a>.</p> <!-- IH#1 -->
+        <p>Explore our wide range of products!</p>
+        <div class="product-list">
+            <!-- Product items go here -->
+        </div>
+    </div>
+
+    <!-- Registration Page -->
+    <div id="register-page">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Register</button>
+            <button type="button" onclick="window.location.href='index.html'">Cancel</button> <!-- IH#5 -->
+        </form>
+        <p>By creating an account, you can track your orders and receive the best deals.</p> <!-- IH#1 -->
+        <p>We require an email to verify your account and send order updates.</p> <!-- IH#2 -->
+    </div>
+
+    <!-- Cart Page -->
+    <div id="cart-page">
+        <h2>Cart Page</h2>
+        <div class="cart-item">
+            <p>Airpods $150 <button>Remove From Cart</button> <!-- IH#5 --></p>
+        </div>
+        <div class="cart-item">
+            <p>MacBook Air 15’ $1200 <button>Remove From Cart</button> <!-- IH#5 --></p>
+        </div>
+        <div class="cart-item">
+            <p>Shorts $30 <button>Remove From Cart</button> <!-- IH#5 --></p>
+        </div>
+        <div class="checkout">
+            <button onclick="calculateTotal()">Total</button>
+            <p>$1380</p> <!-- IH#6 -->
+            <button>Checkout</button> <!-- IH#6 -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

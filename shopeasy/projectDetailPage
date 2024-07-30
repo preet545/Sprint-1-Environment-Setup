@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Easy - Product Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Detail Page</h1>
+    </header>
+    <main>
+        <section class="product-detail">
+            <div class="product-images">
+                <img src="iphone.jpg" alt="iPhone 14 Pro Max Image 1">
+                <img src="iphone.jpg" alt="iPhone 14 Pro Max Image 2">
+                <img src="iphone.jpg" alt="iPhone 14 Pro Max Image 3">
+            </div>
+            <div class="product-info">
+                <h2>iPhone 14 Pro Max</h2>
+                <p>This is a great product...</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="/products">Products</a>
+            <a href="/help">Help</a>
+            <a href="/sign-in">Sign In</a>
+            <a href="/register">Register</a>
+        </nav>
+    </footer>
+</body>
+</html>
